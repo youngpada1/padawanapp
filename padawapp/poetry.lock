@@ -1120,6 +1120,19 @@ files = [
 streamlit = ">=1.4.0"
 
 [[package]]
+name = "streamlit-timeline"
+version = "0.0.2"
+description = "A Streamlit custom component to display a timeline"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "streamlit-timeline-0.0.2.tar.gz", hash = "sha256:6d77e418cc08211d0cbe87f21cb9b57038b1cda68c364e5a4e518496f6db955b"},
+]
+
+[package.dependencies]
+streamlit = ">=0.70"
+
+[[package]]
 name = "streamlit-vis-timeline"
 version = "0.3.0"
 description = "Streamlit component for rendering vis.js timeline"
@@ -1325,4 +1338,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a63f59d1192d847df2f268fe3b7c2c00b8e67e4ff09f298c100600cec9cd29ba"
+content-hash = "6f598c19cac138bc5997bc7bf0c5290a97d76d59a5ea89730137ee373cd2eb37"
