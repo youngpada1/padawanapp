@@ -1,0 +1,56 @@
+{
+ "timeline": [
+    {
+      "start_date": "2020-11-01",
+      "end_date": "2023-12-31",
+      "media": "https://github.com/youngpada1/padawanapp/blob/6c4b56d14395f265f307d6e0ee4f9bf2099fb4d2/padawapp/images/s4g.png?True",
+      "media2": "https://github.com/youngpada1/padawanapp/blob/6c4b56d14395f265f307d6e0ee4f9bf2099fb4d2/padawapp/images/s3g.png?rue",
+      "media3": "https://github.com/youngpada1/padawanapp/blob/6c4b56d14395f265f307d6e0ee4f9bf2099fb4d2/padawapp/images/rednet.png?True",
+      "headline": "Focusrite Audio Engineering ltd",
+      "text": "Production Engineer"
+    },
+    {
+      "start_date": "2020-07-01",
+      "end_date": "2021-07-01",
+      "media": "https://example.com/media2.jpg",
+      "headline": "MOD Devices GmBh",
+      "text": "Production Manager"
+    },
+    {
+      "start_date": "2018-07-01",
+      "end_date": "2020-02-01",
+      "media": "https://example.com/media3.jpg",
+      "headline": "Patch Point GmBh",
+      "text": "Production Manager"
+    },
+    {
+        "start_date": "2018-06-01",
+        "end_date": "2020-09-01",
+        "media": "https://example.com/media3.jpg",
+        "headline": "Konstruktiv GmBh",
+        "text": "Testing Engineer"
+    },
+    {
+        "start_date": "2018-04-01",
+        "end_date": "2020-07-01",
+        "media": "https://example.com/media3.jpg",
+        "headline": "Koma Elektronik GmbH",
+        "text": "Manufacturing Technician"
+    },
+    {
+        "start_date": "2017-05-01",
+        "end_date": "2017-09-01",
+        "media": "https://example.com/media3.jpg",
+        "headline": "Winter Modular",
+        "text": "Manufacturing Technician"
+    },
+    {
+        "start_date": "2016-02-01",
+        "end_date": "2017-09-01",
+        "media": "https://example.com/media3.jpg",
+        "headline": "Befaco",
+        "text": "Manufacturing Technician"
+    }
+
+ ]
+}
