@@ -56,3 +56,9 @@ with col4:
     
 st.write('I am a dedicated manufacturing engineer with 6+ years of experience in this field, supply chain, and leadership.My expertise lies in successfully delivering new products to the market, with a passion for optimising processes, conducting data analysis, and proficiently managing projects. I am recognised for my leadership style, leading by example and thriving within collaborative team environments. I take pride in consistently delivering excellence and viewing challenges as valuable learning opportunities. My career aspirations revolve around a commitment to continuous growth and a desire to explore new challenges in diverse fields, utilising my extensive experience while acquiring new skills. Within the audio industry, I have actively contributed to the community by providing technical support and serving as a business consultant to small brands.')
 
+
+st.subheader('Other Links')
+
+attackmag = 'https://www.attackmagazine.com/features/interview/5-women-in-the-synthesizer-industry-flavia-ferreira-focusrite/'
+
+
