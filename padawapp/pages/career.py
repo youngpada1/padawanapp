@@ -1,7 +1,15 @@
 import streamlit as st
+from streamlit_timeline import timeline
 
 # Set layout page to wide
 st.set_page_config(layout='wide')
+
+# load data
+with open('timeline.json', "r") as f:
+    data = f.read()
+
+# render timeline
+timeline(data, height=200)
 
 # Adding Selectbox
 def career():

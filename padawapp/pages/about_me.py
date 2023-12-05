@@ -9,7 +9,7 @@ st.set_page_config(layout='wide')
 
 # Adding introductory message
 st.title('Flavia Ferreira')
-st.markdown('''This is a web app that allows you to see my professional experience''')
+st.markdown('''Welcome to the Flaviapp. Who am I? Let's find out!''')
 st.write('''___''')
 
 # Adding columns
@@ -54,5 +54,5 @@ with col4:
 )
 
     
-st.write('I am a dedicated manufacturing engineer with over 6 years of experience in this field, supply chain, and leadership. Delivering new products to the market. I am passionate about optimising processes, data analysis and project management. Known for leading by example and thriving in collaborative team environments, I take pride in delivering excellence and view challenges as valuable learning opportunities. My career aspirations revolve around continuous growth and seeking new challenges in diverse fields where I can leverage my extensive experience while acquiring new skills. Within the audio industry, I have actively contributed to the community by providing technical support and serving as a business consultant to small brands.')
+st.write('I am a dedicated manufacturing engineer with 6+ years of experience in this field, supply chain, and leadership.My expertise lies in successfully delivering new products to the market, with a passion for optimising processes, conducting data analysis, and proficiently managing projects. I am recognised for my leadership style, leading by example and thriving within collaborative team environments. I take pride in consistently delivering excellence and viewing challenges as valuable learning opportunities. My career aspirations revolve around a commitment to continuous growth and a desire to explore new challenges in diverse fields, utilising my extensive experience while acquiring new skills. Within the audio industry, I have actively contributed to the community by providing technical support and serving as a business consultant to small brands.')
 
