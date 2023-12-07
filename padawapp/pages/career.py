@@ -1,57 +1,109 @@
+import json
 import streamlit as st
+from streamlit_lottie import st_lottie
+
 
 # Set layout page to wide
 st.set_page_config(layout='wide')
 
+# Creating columns to add animation to column3
+col1, col2, col3 = st.columns(3)
+with col1: # Page title
+    st.title('Professional Experience')
+with col2: # There's nothing here, bleh!
+    st.write('''''')
+with col3: # Load Lottie animation
+    with open ('/Users/youngpadawan/flaviapp/padawanapp/padawapp/pages/Wrench.json', 'r') as f:
+        data = json.load(f)
+        st_lottie(data,
+          speed=1,
+          reverse=False,
+          loop=True,
+          width='200px',
+          height='150px'
+          )
+        
+
+
 # Adding Selectbox
 def career():
-    st.title('Professional Experience')
     companies = st.selectbox(
         'Select a company',
-        ('Focusrite','MOD Devices', 'Patch Point', 'Konstruktiv GmbH', 'Koma Elektronik GmbH', 'Winter Modular', 'Befaco' )
+        ('Focusrite Audio Engineering ltd.','MOD Devices', 'Patch Point', 'Konstruktiv GmbH', 'Koma Elektronik GmbH', 'Winter Modular', 'Befaco' )
 )
-    st.write('''___''')
 
+    st.write('''___''')
+    
 # Experience
-    if companies == 'Focusrite':
+    if companies == 'Focusrite Audio Engineering ltd.':
         title = st.markdown('Production Engineer')
         focusrite = st.text('''
-                                  PLM System Trainee
-- Identified process enhancement opportunities during organizational expansion.
-- Results after the first year:
-- Introduced systems and processes to train new personnel across various departments (Logistics, Service, Operations, Hardware, Mechanical Design).
-- Software development for processing data resulted in a 50% increase in productivity.
-- Improved existing settings and rectified the Arena PLM database using Python scripting and API utilization.
-- Facilitated seamless process adaptation and integration of manufacturing data for new companies.
+                                  Cost Management
+‣ Successfully managed NPI cost tracking, consistently delivering accurate FOB updates to stakeholders.
+‣ Effectively managed material cost fluctuations, including integrated circuits (ICs) and inductors, employing 
+  data-driven strategies.
+‣ Collaborated closely with the sourcing manager to negotiate and secure favorable contract pricing with distributors,
+  resulting in substantial 
+  annual savings of approximately $55,000 across three critical components used in multiple SKUs.
+‣ Demonstrated proactive problem-solving by identifying and resolving production-related challenges, employing clear 
+  communication with stakeholders to prevent future issues, and proposing practical and effective solutions.
                              
+Certification
+‣ Served as the liaison between compliance teams and external partners (CSA, BLUETOOTH SIG, WIFI ALLIANCE, NEMKO, etc.), 
+  facilitating the management and submission of regulatory documentation for product compliance in various global 
+  territories (US, UK, Canada, Japan, etc.).
+                                  
+Supply Chain Management
+‣ Proficiently managed End-of-Life (EOL) components and alternates, especially those with extended lead times, mitiga-
+  ting potential production delays.
+‣ Pioneered the implementation of a streamlined process in collaboration with the production engineering team, hardware 
+  department, operations, and external vendors.
+‣ Successfully transitioned from an Excel-based data tracker to the use of Youtrack, significantly reducing validation 
+  and release times, leading to a remarkable 40% boost in productivity.
+‣ Addressed a critical connector shortage in the Scarlett 3rd Gen series, responsible for a substantial portion of revenue 
+  (around £3Million), ensuring a timely resolution that was pivotal for meeting financial year-end targets and supporting 
+  new product introductions dependent on this component.
+                                  
+Project and Process Development
+‣ Assumed responsibility for maintaining BOMs for products in mass production and New Product Introductions (NPIs). Collabo-
+  rating with the engineering teams and communicating efficiently with the project management team and other stakeholders on 
+  the project milestones and risks.
+‣ Developed a highly efficient Python script that drastically reduced BOM processing time from 2 days to just 15 minutes.
+‣ Streamlined workflows, ensuring same-day releases of BOMs, software, firmware, artworks, and more by effectively collabo-
+  rating with engineering teams.
+‣ Enhanced productivity through the efficient management and dissemination of manufacturing data to vendors via Engineering 
+  Change Notifications (ECNs).
+                             
+Design Optimisation
+‣ Focused on implementing DFx principles to optimise manufacturability and assembly processes.
+‣ Contributed to enhancing efficiency and standardisation across all affiliated companies within the group, aligning with broader organisational goals
+  and objectives.
+
+PLM System Trainee
+‣ Conducted process enhancement initiatives, both internally and across affiliated companies, during a period of organisational expansion.
+‣ Introduced and optimised systems and processes for training new personnel across various departments, including Logistics, Service, 
+  Operations, Hardware, and Mechanical Design.
+‣ Developed software solutions for data processing, resulting in a remarkable 50% increase in productivity through procedural refinement 
+  and workflow optimisation, utilising tools such as Youtrack, Confluence, and Jira, in collaboration with multiple disciplines, such as IT, 
+  Power BI, and Data teams.
+‣ Demonstrated proficiency in rectifying and enhancing the Arena PLM database through Python scripting and API utilisation.
+‣ Facilitated seamless process adaptation and the integration of manufacturing data for new companies, contributing to organisational growth.
+
 Production Engineering Trainee
-- Facilitated integration of new team members into operational workflows.
-- Conducted comprehensive inductions, reviewed Engineering Change Orders (ECOs), and supported alignment of objectives and key results (OKRs).
-- Focused on addressing areas requiring improvement, such as material shortages and cost reduction measures.
-                                  
+‣ Conducted comprehensive inductions for new team members, ensuring a smooth assimilation into operational workflows.
+‣ Reviewed and aligned Engineering Change Orders (ECOs), facilitating the integration of objectives and key results (OKRs) with organisational goals.
+‣ Collaborated within a dynamic team to address areas requiring improvement, including material shortages and cost reduction measures.
+
 Sustainability
-- Achieved an 80% reduction in plastic usage in the New Product Introduction (NPI) project.
-- Replaced plastic seals with paper seals, plastic ties with paper wrapping, and eliminated PE Foam.
-- Extended sustainable practices to other SKUs while adhering to budget constraints.
-- Optimized product dimensions, reducing both shipping costs and carbon emissions.
-                                  
-Bill of Materials (BOM) Management
-- Overseeing maintenance of BOM for mass production and NPIs.
-- Developed a Python script that reduced processing time from 2 days to a mere 15 minutes.
-                             
-Component Engineering
-- Managed End-of-Life (EOL) components and alternates to mitigate potential production delays.
-- Transitioned from an Excel-based data tracker to Youtrack, streamlining communication and reducing validation and release times.
-- Increased productivity by an impressive 40%.
-- Successfully managed a connector shortage impacting 71% of revenue.
-
-Cost Management
-- Tracked NPI costs, reported FOB updates, and managed material cost fluctuations.
-- Negotiated contract pricing with distributors, resulting in substantial savings of approximately $55,000 per year (only in three components) used in multiple SKUs.
-- Proactively identified and resolved production-related challenges, proposing pragmatic solutions.
-
-Design Optimization
-- Focused on implementing Design for Manufacturing (DFM) and Design for Assembly (DFA) principles to optimize manufacturability and assembly processes, enhancing efficiency and standardization.''')
+‣ Led sustainable initiatives by researching various options and materials in collaboration with external contract manufacturers.
+‣ Achieved an outstanding 80% reduction in plastic usage during a New Product Introduction (NPI) project.
+‣ Notable achievements included the replacement of plastic seals with paper seals, substitution of plastic ties with
+  paper wrapping, and the elimination of PE Foam in favor of a robust cardboard infrastructure capable of supporting
+  product weight.
+‣ Extended sustainable practices to other SKUs while adhering to budget constraints, optimizing product dimensions
+  to reduce both shipping costs and carbon emissions.
+                            
+                            ''')
         
     elif companies == 'MOD Devices':
         title = st.markdown('Production Manager')
