@@ -1,27 +1,41 @@
+import json
 import streamlit as st
-from streamlit_timeline import timeline
+from streamlit_lottie import st_lottie
+
 
 # Set layout page to wide
 st.set_page_config(layout='wide')
 
-# load data
-with open('timeline.json', "r") as f:
-    data = f.read()
+# Add animation in column2
+col1, col2, col3 = st.columns(3)
+with col1: # Page title
+    st.title('Professional Experience')
+with col2: # There's nothing here, bleh!
+    st.write('''''')
+with col3: # Load Lottie animation
+    with open ('/Users/youngpadawan/flaviapp/padawanapp/padawapp/pages/Wrench.json', 'r') as f:
+        data = json.load(f)
+        st_lottie(data,
+          speed=1,
+          reverse=False,
+          loop=True,
+          width='200px',
+          height='150px'
+          )
+        
 
-# render timeline
-timeline(data, height=200)
 
 # Adding Selectbox
 def career():
-    st.title('Professional Experience')
     companies = st.selectbox(
         'Select a company',
-        ('Focusrite','MOD Devices', 'Patch Point', 'Konstruktiv GmbH', 'Koma Elektronik GmbH', 'Winter Modular', 'Befaco' )
+        ('Focusrite Audio Engineering ltd.','MOD Devices', 'Patch Point', 'Konstruktiv GmbH', 'Koma Elektronik GmbH', 'Winter Modular', 'Befaco' )
 )
-    st.write('''___''')
 
+    st.write('''___''')
+    
 # Experience
-    if companies == 'Focusrite':
+    if companies == 'Focusrite Audio Engineering ltd.':
         title = st.markdown('Production Engineer')
         focusrite = st.text('''
                                   PLM System Trainee
