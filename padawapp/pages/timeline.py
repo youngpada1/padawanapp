@@ -36,17 +36,33 @@ def career():
     if companies == 'Focusrite Audio Engineering ltd.':
         ## Creating columns to add photos
         col1, col2, col3, col4 = st.columns (4)
-        with col1: # Scarlett 3rd Gen
-            scarlett3gen = 'https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s3g.png'
+
+        with col1: # Novation Impulse
+            impulse = 'https://raw.githubusercontent.com/youngpada1/padawanapp/b5ac96c010b37c0d7054a1dc1c7db8c3f679bd05/padawapp/images/novation-impulse.jpg'
             st.markdown(f'''
-                        <img src='{scarlett3gen}' width=50% />
+                        <img src='{impulse}' width=84% />
                         </a>''',
                         unsafe_allow_html=True
                         )
-        with col2: # Scarlett 4th Gen
+
+        with col2: # Scarlett 3rd Gen
+            scarlett3gen = 'https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s3g.png'
+            st.markdown(f'''
+                        <img src='{scarlett3gen}' width=70% />
+                        </a>''',
+                        unsafe_allow_html=True
+                        )
+        with col3: # Circuit Rythm & Tracks
+            circuit = 'https://raw.githubusercontent.com/youngpada1/padawanapp/b5ac96c010b37c0d7054a1dc1c7db8c3f679bd05/padawapp/images/circuit%20-%20rythmandtracks.jpeg'
+            st.markdown(f'''
+                        <img src='{circuit}' width=93% />
+                        </a>''',
+                        unsafe_allow_html=True
+                        )
+        with col4: # Scarlett 4th Gen
             scarlett4gen = 'https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s4g.png'
             st.markdown(f'''
-                        <img src='{scarlett4gen}' width=70% />
+                        <img src='{scarlett4gen}' width=95% layout=centered/>
                         </a>''',
                         unsafe_allow_html=True
                         )
