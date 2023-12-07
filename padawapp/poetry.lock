@@ -1123,6 +1123,20 @@ files = [
 streamlit = ">=1.4.0"
 
 [[package]]
+name = "streamlit-lottie"
+version = "0.0.5"
+description = "A Streamlit custom component to load Lottie animations"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "streamlit-lottie-0.0.5.tar.gz", hash = "sha256:c61589fb92bdf1dd5bd0a2ea75315d92e3383f46059b3704515d096a1e953d79"},
+    {file = "streamlit_lottie-0.0.5-py3-none-any.whl", hash = "sha256:98656d6f1cc99c5d96fb8329bafbcdbb65709ad0a05176dffdf4755f6fc04cff"},
+]
+
+[package.dependencies]
+streamlit = ">=0.63"
+
+[[package]]
 name = "streamlit-option-menu"
 version = "0.3.6"
 description = "streamlit-option-menu is a simple Streamlit component that allows users to select a single item from a list of options in a menu."
@@ -1355,4 +1369,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1554509b3203a6a43dc50cd5fb3df3371fbe5bdbdfb3a04d1f21c3dfac076a81"
+content-hash = "a7cffc4e507cd925adcc9bfffb02245fca6dc71d31d9068f13b25fb89c34e7a4"

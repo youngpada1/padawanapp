@@ -31,8 +31,7 @@ with col2:
        label='Download Resume',
        data=bytes_data,
        file_name='Flavia Ferreira | Resume',
-       mime='application/pdf',
-     
+       mime='application/pdf'    
 )
 # Link to Github
 with col3:
