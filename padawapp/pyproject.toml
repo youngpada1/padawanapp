@@ -16,6 +16,9 @@ pip = "^23.2.1"
 streamlit-vis-timeline = "^0.3.0"
 streamlit-timeline = "^0.0.2"
 pillow = "^10.0.1"
+streamlit-aggrid = "^0.3.4.post3"
+streamlit-option-menu = "^0.3.6"
+streamlit-lottie = "^0.0.5"
 
 
 [build-system]
