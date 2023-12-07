@@ -117,6 +117,7 @@ Successfully transitioned from an Excel-based data tracker to Youtrack, signific
 One of the main challenges I had to face this year, was to address a critical connector shortage in the Scarlett 3rd Gen series, responsible for a substantial portion of revenue (around £3 million), 
 ensuring a timely resolution crucial for meeting financial year-end targets and supporting new product introductions dependent on this component.
 ''')
+                ### Project and Process Development - Information
                 elif select == 'Project and Process Development':
                     project_and_process = st.expander('''''', expanded=True)
                     project_and_process.markdown('''
@@ -127,6 +128,7 @@ communication with the project management team and other stakeholders on project
 As a result of this initiative, we enhanced productivity by efficiently managing and disseminating manufacturing data to vendors via Engineering Change Notifications (ECNs).
 
 ''')
+                ### Design Optimisation - Information
                 elif select == 'Design Optimisation':
                     design_optimization = st.expander('''''', expanded=True)
                     design_optimization.markdown('''
@@ -134,6 +136,7 @@ To optimise manufacturability and assembly processes in NPIs - I focused on impl
 with broader organisational goals and objectives.
 
 ''')
+                ### PLM System Trainee - Information
                 elif select == 'PLM System Trainee':
                     plm_system_trainee = st.expander('''''', expanded=True)
                     plm_system_trainee.markdown('''
@@ -143,6 +146,7 @@ I also played a key role in developing software solutions for data processing, r
 My proficiency extended to rectifying and enhancing the Arena PLM database through Python scripting and API utilization, showcasing my ability to navigate and improve complex systems.
 Overall, I contributed to the seamless adaptation of processes and integration of manufacturing data for new companies, thereby playing a crucial role in the organizational growth of the Focusrite Group.
 ''')
+                ### Production Engineering Trainee - Information
                 elif select == 'Production Engineering Trainee':
                     production_engineering_trainee = st.expander('''''', expanded=True)
                     production_engineering_trainee.markdown('''
@@ -151,6 +155,7 @@ integrating objectives and key results (OKRs) with our organizational goals. Wit
 experience leading teams, I identified a valuable opportunity to contribute my insights. At ADAM Audio, where I served as the first and only production engineer in the engineering team, I worked closely with management and other engineering 
 disciplines. Together, we crafted processes that incorporated production engineering tasks, tailored to seamlessly fit the existing flows and needs of the team. This experience allowed me to bring a unique perspective to our collaborative efforts.
 ''')
+                ### Sustainability - Information
                 elif select == 'Sustainability':
                     sustainability = st.expander('''''', expanded=True)
                     sustainability.markdown('''
