@@ -34,16 +34,16 @@ Mod Devices:
   images: 
     - name: MOD Dwarf
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/fe7c8085e3e87908ec54fe3fa8c340edf3fcafe4/padawapp/images/mod-dwarf1.png
-      width: 90%
+      width: 89%
     - name: MODs Ecosystem
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/moddwarf.jpeg
-      width: 91%
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/0bc0420d08267524e7744902136b63847c4141ba/padawapp/images/moddwarf.png
+      width: 57%
     - name: Visiting external vendors
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/moddevices.jpeg
       width: 50%
-    # - name: At the contact manufacturer, deploying new factory test
-    #   url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
-    #   width: 62%
+    - name: At the contact manufacturer, deploying new factory test
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
+      width: 62%
 
   
   skills:
