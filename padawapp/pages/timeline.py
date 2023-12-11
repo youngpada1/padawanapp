@@ -50,7 +50,7 @@ def career():
                 unsafe_allow_html=True
             )
     st.write(''' ''')
-    
+
     if "skills" in company_data:
         select = option_menu(
                     menu_title=None,
