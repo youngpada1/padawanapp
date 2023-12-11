@@ -32,17 +32,19 @@ Focusrite Audio Engineering Ltd:
 
 Mod Devices:
   images: 
-   - name: In the Factory, deploying Factory Test System
-     url: 
-     width:
-   - name:
-     url:
-     width:
-   - name:
-     url:
-     width:
+    - name: MOD Dwarf
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/mod-dwarf1.png
+      width: 60%
+    - name: Visiting external vendors
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/moddevices.jpeg
+      width: 50%
+    - name: At the contact manufacturer, deploying new factory test
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
+      width: 62%
+    - name: MODs Ecosystem
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/moddwarf.jpeg
+      width: 90%
   
-
   skills:
     Being a boss: Yes, I was bossing it again
 
