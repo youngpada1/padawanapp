@@ -64,15 +64,15 @@ Patch Point:
     - name: TTSH
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ttsh.jpeg
       width: 80%
-    - name: Ciat Lonbarde
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/3608bf690d3c40cab31d8e47c50f79fa6ca8d91e/padawapp/images/Patch%20Point/ciat-lonbarde.png
-      width: 61%
     - name: Full TTSH
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/3608bf690d3c40cab31d8e47c50f79fa6ca8d91e/padawapp/images/Patch%20Point/fullttsh.png
-      width: 99%
+      width: 70%
     - name: Serge Modular
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/serge_patched.jpeg
       width: 67%
+    - name: Ciat Lonbarde
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/b7d955efb75f4d795dbc38c9870ea67d2f3af9fb/padawapp/images/Patch%20Point/ciat-lonbarde.png
+      width: 106%
   
   skills:
     Project Management: |
