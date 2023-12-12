@@ -12,6 +12,13 @@ Focusrite Audio Engineering Ltd:
     - name: Focusrite Scarlett 4th Gen
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s4g.png
       width: 95%
+
+  title: 
+    name: Production Engineer
+    start date: 01/11/2021
+    end date: Present
+    location: London, UK
+
   skills:
     Cost Management: | 
         In my role as a Production Engineer, I successfully managed NPI cost tracking consistently providing accurate FOB updates for stakeholders. I managed material cost fluctuations, particularly for integrated circuits and inductors, employing data-driven strategies and tools like, python scripts, Power Query Editor and Power BI. As part of my day-to day, I collaborated closely with the sourcing manager to negotiate favorable contract pricing with distributors, resulting in significant annual savings of components used across multiple SKUs. I proactively addressed production-related challenges by identifying and resolving issues in the production line. Through clear and timely communication with stakeholders, I not only prevented future problems but also proposed practical and effective solutions, contributing to the seamless functioning of the production process.
@@ -45,19 +52,25 @@ Mod Devices:
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/0bc0420d08267524e7744902136b63847c4141ba/padawapp/images/moddwarf.png
       width: 67%
 
+  title: 
+    name: Production Manager
+    start date: 01/07/2020
+    end date: 30/07/2021
+    location: Berlin, Germany
+
   skills:
     Production Planning and Quality Control: |
-       Strategically planned, coordinated, and meticulously documented production and quality control processes across multiple departments.
+       Throughout the manufacturing journey as a Production Manager - I strategically planned, coordinated, and meticulously documented every step of production and quality control processes. From project kick-off to mass production, I played a key role in ensuring a smooth development process. This involved thorough validation, hands-on hardware verification, and proactive collaboration with diverse engineering teams, such as mechanical and firmware. My goal was to troubleshoot and resolve challenges at every stage, ensuring a seamless transition to the next phase of validation.
     Hardware Systems Debugging and Release Management: |
-       Proficiently debugged Linux-based hardware systems, diligently documenting issues and ensuring seamless releases to the factories.
+       Proficiently debugging Linux-based hardware systems, I documented issues and ensured seamless releases to the factories. This included preparing DFM reports, SOP documentation, and providing comprehensive factory test support. My commitment to meticulous problem-solving contributed to the smooth deployment of hardware systems.
     Prototyping and New Product Introductions (NPI): |
-       Performed construction and rigorous validation of prototypes vital for hardware development, specifically New Product Introductions (NPI).
+       I played a key role in constructing and rigorously validating prototypes essential for hardware development, particularly in New Product Introductions (NPI). This involved hands-on soldering, thorough debugging, and the proactive procurement of superior alternate components when necessary. Additionally, I provided valuable feedback on how to scale up production processes, contributing to the overall success of the projects.
     Risk Management and Process Improvement: |
-       Proactively identified and communicated potential risks to stakeholders, fostering timely mitigation to prevent production delays and issues, all while championing a culture of continuous process improvement.
+       I took a proactive approach in identifying and communicating potential risks to stakeholders, ensuring a timely mitigation strategy to prevent production delays and issues. This included managing shortages of components and maintaining a low failure rate in production. Throughout this process, I fostered a culture of continuous process improvement, contributing to the overall success and efficiency of the project schedule.
     External Collaboration and Supplier Management: |
-       Collaborated effectively with external service providers to facilitate the seamless transition of products into Mass Production.
+       I collaborated effectively with distributors and the contract manufacturer, ensuring a smooth transition of products into Mass Production. This involved visiting the factory to deploy the factory test and providing training to personnel on the assembly process for the new product. I focused on implementing and improving quality controls throughout the entire process, ultimately enhancing efficiency and reducing time in the production line.
     Logistics, Operations, and Customer Support: |
-       Managed logistics and operations encompassing production, fulfillment, and comprehensive customer support to ensure operational excellence.
+       I effectively managed logistics and operations, covering production, fulfillment, and comprehensive customer support to ensure operational excellence. This encompassed tracking components from China to the factory, overseeing sample deliveries to the headquarters in Berlin for testing by both myself and the mechanical team. I also handled order fulfillment, shipping products to distributors and customers. Furthermore, I took charge of servicing and debugging faulty units returned by customers, maintaining continuous communication with them to provide updates on the repair status.
 
 Patch Point:
   images: 
@@ -66,30 +79,32 @@ Patch Point:
       width: 80%
     - name: Full TTSH
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/3608bf690d3c40cab31d8e47c50f79fa6ca8d91e/padawapp/images/Patch%20Point/fullttsh.png
-      width: 70%
+      width: 75%
     - name: Serge Modular
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/serge_patched.jpeg
-      width: 67%
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/aebcd2ddbbb3630ffcc45caecd95381a5ff6b888/padawapp/images/Patch%20Point/serge_patched.jpeg
+      width: 70%
     - name: Ciat Lonbarde
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/b7d955efb75f4d795dbc38c9870ea67d2f3af9fb/padawapp/images/Patch%20Point/ciat-lonbarde.png
       width: 106%
   
+  title: 
+    name: Production Manager
+    start date: 01/09/2018
+    end date: 01/02/2020
+    location: Berlin, Germany
+  
   skills:
     Project Management: |
-       During my time at Patch Point, I had the privilege of contributing to several high-profile projects. Among these accomplishments, I take particular pride in overseeing the construction of all Serge systems and the TTSH for the University of New York (US). My responsibilities at Patch Point encompassed a diverse range of critical tasks, demonstrating my comprehensive skill set and commitment to excellence.
+       During my time at Patch Point as a Production Manager, I had the privilege of contributing to several high-profile projects. Among these accomplishments, I take particular pride for having assembled from scratch all Serge systems and the TTSH (clone of the ARP2600) for [NYU (New York)](https://www.youtube.com/watch?v=SO4IDYu3_jQ). My responsibilities at Patch Point encompassed a diverse range of critical tasks, demonstrating my comprehensive skill set and commitment to excellence.
     Operational Documentation and Process Improvement: |
-       Methodically documented and established streamlined processes to ensure operational efficiency. Delivered the implementation of an inventory management system, optimizing production line organization for enhanced productivity.
+       I took a detailed approach to document assembly processes and establish efficient procedures, ensuring a consistent and high-quality output for all products. I spearheaded the implementation of an inventory management system and kitting for DIY products, optimizing the organization of the production line to enhance overall productivity. Furthermore, I managed the procurement of components, packaging materials, and tools for the production line, including essentials like fume extractors and soldering materials. My focus on these aspects contributed significantly to maintaining a healthy and safe environment for the production line team.
     Team Leadership and Training: |
-       Led a team of personnel, providing supervision and comprehensive training to ensure optimal performance.
+       In my first go at leading a production engineering team, I successfully guided a small but dynamic group. I provided hands-on supervision and thorough training, introducing new safety measures and documenting them meticulously. I always aimed to enhance our processes, improve workflows, and ensure everyone had a healthy work-life balance. I also managed team schedules, considering the diverse nature of our workforce, including contractors.
     Technical Expertise in Manufacturing: |
-       Applied technical expertise in soldering, assembly, testing, and precision calibration of intricate instruments. Leveraged problem-solving skills to troubleshoot hardware issues and facilitate swift resolutions.
+       I applied my technical expertise in soldering, assembly, testing, and precision calibration of intricate instruments. Employing strong problem-solving skills, I adeptly troubleshooted hardware issues and facilitated swift resolutions, occasionally engaging in reverse engineering when faced with inadequate documentation. I embraced these challenges with enthusiasm. Additionally, I played a key role in enhancing the team's soldering skills, maintaining a keen focus on precision and detail.
     Procurement and Supply Chain Management: |
-       Managed the procurement of components and production materials, ensuring a seamless workflow.
+       I effectively managed the procurement of components and production materials, ensuring timely availability for production. The company also offered DIY kits, and I implemented a more systematic approach to scale up production without errors, replacing the previous manual method. This improvement significantly reduced kitting time, and I consistently identified alternate sources to procure components within the specified budget.
    
-  videos:
-    name: Serge Modular System NYU
-    url: "https://www.youtube.com/watch?v=SO4IDYu3_jQ"
-    width: 50%
     
   
 Konstruktiv GmbH:

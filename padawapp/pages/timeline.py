@@ -62,31 +62,19 @@ def career():
                     styles={
                 'container': {'padding': '5!important', 'background-color': '#000000'},
                 'icon': {'color': 'orange', 'font-size': '10px'}, 
-                'nav-link': {'font-size': '10px', 'text-align': 'center', 'margin':'0px', '--hover-color': '#eee'},
+                'nav-link': {'font-size': '12px', 'text-align': 'center', 'margin':'0px', '--hover-color': '#eee'},
                 'nav-link-selected': {'background-color': '#000000'},
                 }
             )
-        skill_details = st.expander('''''', expanded=True)
-        skill_details.markdown(company_data["skills"][select])
+        
+        # Adding Role Title to Expander 
+        title_info = company_data.get("title", {})
+        if title_info:
+            title_name = title_info.get("name", "")
+            start_date = title_info.get("start date", "")
+            end_date = title_info.get("end date", "")
 
-    if "videos" in company_data:
-        #cols = st.columns(len(company_data["videos"]))
-        st.video(company_data["videos"]["url"])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-      
-
+        skill_details = st.expander(f"{title_name} | {start_date} to {end_date}", expanded=True)
+        skill_details.markdown(company_data["skills"][select])    
+        
 career()
