@@ -62,18 +62,18 @@ Mod Devices:
 Patch Point:
   images: 
     - name: TTSH
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ttsh.jpeg
       width: 73%
     - name: Ciat Lonbarde
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/bf0ee9b7187b102ce61cf7b4fca6028d6fc8c58b/padawapp/images/modduox.png
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ciat-lonbarde.png
       width: 61%
     - name: Full TTSH
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fe7c8085e3e87908ec54fe3fa8c340edf3fcafe4/padawapp/images/mod-dwarf1.png
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/fullttsh.png
       width: 99%
     - name: Serge Modular
-      url: 
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/serge_patched.jpeg
       width: 67%
-      youtube link: https://www.youtube.com/watch?v=SO4IDYu3_jQ
+  
   skills:
     Project Management: |
        During my time at Patch Point, I had the privilege of contributing to several high-profile projects. Among these accomplishments, I take particular pride in overseeing the construction of all Serge systems and the TTSH for the University of New York (US). My responsibilities at Patch Point encompassed a diverse range of critical tasks, demonstrating my comprehensive skill set and commitment to excellence.
@@ -86,6 +86,8 @@ Patch Point:
     Procurement and Supply Chain Management: |
        Managed the procurement of components and production materials, ensuring a seamless workflow.
 
+    
+  
 Konstruktiv GmbH:
 
 Koma Elektronik GmbH:
