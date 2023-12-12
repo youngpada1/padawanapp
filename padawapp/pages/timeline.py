@@ -66,6 +66,13 @@ def career():
             )
         skill_details = st.expander('''''', expanded=True)
         skill_details.markdown(company_data["skills"][select])
+
+
+
+
+
+
+
                 
       
 
