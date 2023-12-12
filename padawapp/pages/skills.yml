@@ -32,24 +32,48 @@ Focusrite Audio Engineering Ltd:
 
 Mod Devices:
   images: 
-    - name: MOD Dwarf
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fe7c8085e3e87908ec54fe3fa8c340edf3fcafe4/padawapp/images/mod-dwarf1.png
-      width: 89%
-    - name: MODs Ecosystem
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/0bc0420d08267524e7744902136b63847c4141ba/padawapp/images/moddwarf.png
-      width: 57%
-    - name: Visiting external vendors
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/moddevices.jpeg
-      width: 50%
     - name: At the contact manufacturer, deploying new factory test
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
-      width: 62%
+      width: 73%
+    - name: MOD DUO X
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/bf0ee9b7187b102ce61cf7b4fca6028d6fc8c58b/padawapp/images/modduox.png
+      width: 61%
+    - name: MOD Dwarf
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fe7c8085e3e87908ec54fe3fa8c340edf3fcafe4/padawapp/images/mod-dwarf1.png
+      width: 99%
+    - name: MODs Ecosystem
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/0bc0420d08267524e7744902136b63847c4141ba/padawapp/images/moddwarf.png
+      width: 67%
 
-  
   skills:
-    Being a boss: Yes, I was bossing it again
+    Production Planning and Quality Control: |
+       Strategically planned, coordinated, and meticulously documented production and quality control processes across multiple departments.
+    Hardware Systems Debugging and Release Management: |
+       Proficiently debugged Linux-based hardware systems, diligently documenting issues and ensuring seamless releases to the factories.
+    Prototyping and New Product Introductions (NPI): |
+       Performed construction and rigorous validation of prototypes vital for hardware development, specifically New Product Introductions (NPI).
+    Risk Management and Process Improvement: |
+       Proactively identified and communicated potential risks to stakeholders, fostering timely mitigation to prevent production delays and issues, all while championing a culture of continuous process improvement.
+    External Collaboration and Supplier Management: |
+       Collaborated effectively with external service providers to facilitate the seamless transition of products into Mass Production.
+    Logistics, Operations, and Customer Support: |
+       Managed logistics and operations encompassing production, fulfillment, and comprehensive customer support to ensure operational excellence.
 
 Patch Point:
+  images: 
+    - name: At the contact manufacturer, deploying new factory test
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
+      width: 73%
+    - name: MOD DUO X
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/bf0ee9b7187b102ce61cf7b4fca6028d6fc8c58b/padawapp/images/modduox.png
+      width: 61%
+    - name: MOD Dwarf
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fe7c8085e3e87908ec54fe3fa8c340edf3fcafe4/padawapp/images/mod-dwarf1.png
+      width: 99%
+    - name: MODs Ecosystem
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/0bc0420d08267524e7744902136b63847c4141ba/padawapp/images/moddwarf.png
+      width: 67%
+      
 Konstruktiv GmbH:
 Koma Elektronik GmbH:
 Winter Modular: 
