@@ -40,7 +40,7 @@ def career():
 
     company_data = skills_data[companies]
 
-    # images
+    # Images
     if "images" in company_data:
         cols = st.columns(len(company_data["images"]))
         for i, image in enumerate(company_data["images"]):
@@ -49,8 +49,10 @@ def career():
                             </a>''',
                 unsafe_allow_html=True
             )
+    # Space       
     st.write(''' ''')
 
+    # Skills
     if "skills" in company_data:
         select = option_menu(
                     menu_title=None,
@@ -66,6 +68,17 @@ def career():
             )
         skill_details = st.expander('''''', expanded=True)
         skill_details.markdown(company_data["skills"][select])
+
+    if "videos" in company_data:
+        #cols = st.columns(len(company_data["videos"]))
+        st.video(company_data["videos"]["url"])
+
+
+
+
+
+
+
 
 
 

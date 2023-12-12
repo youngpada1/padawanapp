@@ -63,12 +63,12 @@ Patch Point:
   images: 
     - name: TTSH
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ttsh.jpeg
-      width: 73%
+      width: 80%
     - name: Ciat Lonbarde
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ciat-lonbarde.png
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/3608bf690d3c40cab31d8e47c50f79fa6ca8d91e/padawapp/images/Patch%20Point/ciat-lonbarde.png
       width: 61%
     - name: Full TTSH
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/fullttsh.png
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/3608bf690d3c40cab31d8e47c50f79fa6ca8d91e/padawapp/images/Patch%20Point/fullttsh.png
       width: 99%
     - name: Serge Modular
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/serge_patched.jpeg
@@ -85,7 +85,11 @@ Patch Point:
        Applied technical expertise in soldering, assembly, testing, and precision calibration of intricate instruments. Leveraged problem-solving skills to troubleshoot hardware issues and facilitate swift resolutions.
     Procurement and Supply Chain Management: |
        Managed the procurement of components and production materials, ensuring a seamless workflow.
-
+   
+  videos:
+    name: Serge Modular System NYU
+    url: "https://www.youtube.com/watch?v=SO4IDYu3_jQ"
+    width: 50%
     
   
 Konstruktiv GmbH:
