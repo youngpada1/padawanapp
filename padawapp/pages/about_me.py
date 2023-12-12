@@ -17,12 +17,12 @@ st.write('''___''')
 col1, col2, col3, col4 = st.columns(4)
 # Profile photo section
 with col1: 
-    profile_pic = Path('/Users/youngpadawan/flaviapp/padawanapp/padawapp/images/Flavia - Profile pic.png') #Profile picture
+    profile_pic = Path('/Users/youngpadawan/flaviapp/padawanapp/padawapp/images/Menu/Flavia - Profile pic.png') #Profile picture
     st.image(str(profile_pic), width=100)
 
 # Download resume
 with col2:
-    resume = Path('/Users/youngpadawan/flaviapp/padawanapp/padawapp/images/Flavia Ferreira .pdf') #Resume
+    resume = Path('/Users/youngpadawan/flaviapp/padawanapp/padawapp/images/Menu/Flavia Ferreira .pdf') #Resume
     #loading resume in PDF Format
     with open(resume, 'rb') as f:
         bytes_data = f.read()
