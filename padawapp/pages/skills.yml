@@ -107,21 +107,19 @@ Patch Point:
    
 Others:
   images:
-    - name: Konstructiv GmbH
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Screenshot%202023-12-13%20at%2011.58.57.png
-      width: 84%
-    - name: Koma Field Kit FX
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/KOMA-Elektronik-Field-Kit-FX.png
-      width: 70%
-    - name: Koma Komplex Sequencer
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Komplex%20Sequencer.png
-      width: 93%
     - name: Winter Modular Eloquencer
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/ELOQUENCER-winter-modular.png
-      width: 95%
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/27e6d16c220b513754e04d0c557c90ebb6c606a2/padawapp/images/Others/Winter-Modular-Eloquencer.png
+      width: 97%
     - name: Befaco 
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/befaco.jpeg
-      width: 100%
+      width: 64%
+    - name: Koma Komplex Sequencer
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Komplex%20Sequencer.png
+      width: 105%
+    - name: Koma Field Kit FX
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/KOMA-Elektronik-Field-Kit-FX.png
+      width: 103%
+
 
   title: 
     name: Production Technician
