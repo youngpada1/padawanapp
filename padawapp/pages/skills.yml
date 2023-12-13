@@ -37,7 +37,7 @@ Focusrite Audio Engineering Ltd:
     Sustainability: |
        I took the lead in driving sustainable initiatives, collaborating closely with external contract manufacturers and the Head of Sustainability to explore various options and materials. One notable accomplishment was the impressive 80% reduction in plastic usage achieved in the highest-value NPI I was assigned to. In pursuit of sustainability goals, key achievements included replacing plastic seals with environmentally friendly paper seals, substituting plastic ties with paper wrapping, and eliminating PE Foam in favor of a robust cardboard infrastructure capable of supporting product weight. These environmentally conscious practices were extended to other SKUs, demonstrating a commitment to sustainability while carefully adhering to budget constraints. As part of this effort, we optimized product dimensions to not only reduce shipping costs but also minimize carbon emissions, aligning with our commitment to a greener future.
 
-Mod Devices:
+Mod Devices GmbH:
   images: 
     - name: At the contact manufacturer, deploying new factory test
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/43b9754f67c9b7a69949bfbef0a439a497830dd3/padawapp/images/dwarf.jpeg
@@ -72,7 +72,7 @@ Mod Devices:
     Logistics, Operations, and Customer Support: |
        I effectively managed logistics and operations, covering production, fulfillment, and comprehensive customer support to ensure operational excellence. This encompassed tracking components from China to the factory, overseeing sample deliveries to the headquarters in Berlin for testing by both myself and the mechanical team. I also handled order fulfillment, shipping products to distributors and customers. Furthermore, I took charge of servicing and debugging faulty units returned by customers, maintaining continuous communication with them to provide updates on the repair status.
 
-Patch Point:
+Patch Point GmbH:
   images: 
     - name: TTSH
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/4df2c43092be9613692a770c10d518dc9ef1283f/padawapp/images/Patch%20Point/ttsh.jpeg
@@ -109,17 +109,16 @@ Others:
   images:
     - name: Winter Modular Eloquencer
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/27e6d16c220b513754e04d0c557c90ebb6c606a2/padawapp/images/Others/Winter-Modular-Eloquencer.png
-      width: 97%
-    - name: Befaco 
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/befaco.jpeg
-      width: 64%
+      width: 74%
+    - name: Befaco Full System
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/a622d21555eccb6f6f1b25e9eb71978a50150621/padawapp/images/Others/Befaco%20full%20system.png
+      width: 87%
     - name: Koma Komplex Sequencer
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Komplex%20Sequencer.png
-      width: 105%
+      width: 83%
     - name: Koma Field Kit FX
       url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/KOMA-Elektronik-Field-Kit-FX.png
-      width: 103%
-
+      width: 83%
 
   title: 
     name: Production Technician
@@ -129,11 +128,12 @@ Others:
 
   skills:
     Konstructiv GmbH: |
-       
-    Koma Elektronik: |
-       
-    Winter Modular: |
-       
-    Befaco: |
+       I had the opportunity to work at Konstructiv, a consultancy company that delves into product design, crafting prototypes, PCB layouts, and more. As a production technician, my hands-on role involved building prototypes, from delicately soldering small PCBs with SMT components to providing service for laboratory equipment.
+    Koma Elektronik GmbH: |
+       I started my journey in Berlin working for Koma Elektronik, a small audio equipment manufacturer specializing in synthesizers, sequencers, and eurorack modules. In a temporary role, I supported the production line by testing units (audio and CV), assembling them, and servicing faulty units. With a focus on boutique products, I took pride in maintaining high-quality standards, paying attention to detail, and working efficiently to meet order deadlines. 
+    Winter Modular S.L: |
+       I had the opportunity to be part of Winter Modular, a Barcelona-based company specializing in eurorack modules. Joining during the initial two production batches, I played a crucial role in establishing the assembly process. With the product release being a success and selling out all the first units in a day, we faced challenges such as ill-fitting screen protectors and intricate soldering requirements, which I skillfully addressed.
+    Befaco S.L: |
+       I began my engineering journey at Befaco, a Barcelona-based company renowned for pioneering eurorack modules and fostering a community dedicated to electronics education. Despite my initial limited soldering skills and basic knowledge of electronics, the welcoming team at Befaco embraced me wholeheartedly. Over the course of more than two years, I actively contributed to the production process, hand-soldering and meticulously assembling over 300 products. This enriching experience not only honed my skills but also provided me with valuable insights into best manufacturing practices. Befaco became the foundation of my enduring passion for creating innovative and impactful products.
        
     

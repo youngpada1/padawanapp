@@ -1,8 +1,10 @@
 import streamlit as st
+from streamlit_lottie import st_lottie
 import os, base64
 import pandas as pd
 from pathlib import Path
 from PIL import Image
+import ruamel.yaml
 
 
 # Set layout page to wide
@@ -34,6 +36,7 @@ with col2:
        mime='application/pdf'    
 )
 # Link to Github
+
 with col3:
     github = 'https://raw.githubusercontent.com/youngpada1/padawanapp/a98515a589676598e3ff4fa18a3c24d6f23971b8/padawapp/images/github.png'
     st.markdown(f'''
@@ -60,6 +63,7 @@ st.write(''' ''')
 # Adding link to interviews (Media)
 st.subheader('Other Links')
 
+
 # Organizing links per column
 col1, col2, col3= st.columns(3)
 
@@ -69,7 +73,7 @@ with col1:
     col1.markdown('5 Women In the Synthesizer Industry : Flavia Ferreira')
     st.markdown(f'''
                 <a href='https://www.attackmagazine.com/features/interview/5-women-in-the-synthesizer-industry-flavia-ferreira-focusrite/'>
-                <img src='{attackmag}' width=100% height=100%/>
+                <img src='{attackmag}' width=100% height=310px/>
                 </a>''',
                 unsafe_allow_html=True
                 )
@@ -80,7 +84,7 @@ with col2:
     col2.markdown('Elektor Magazine : Women in Tech')
     st.markdown(f'''
                 <a href='https://www.elektormagazine.com/articles/women-in-tech'>
-                <img src='{elektor}' width=100% height=100%/>
+                <img src='{elektor}' width=100% height=310px/>
                 </a>''',
                 unsafe_allow_html=True
                 )
