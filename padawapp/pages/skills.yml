@@ -30,9 +30,9 @@ Focusrite Audio Engineering Ltd:
        One of my main objectives was to streamline workflows to ensure the smooth transition from raw data into processed data that could be imported or updated into the database. To reduce bottlenecks during this process, I developed a number of highly efficient Python scripts, reducing BOM processing time from 2 days to just 15 minutes. This streamlined workflows, enabled same-day releases of BOMs, software, firmware, artworks, and more through effective collaboration with engineering teams. As responsible for maintaining BOMs for products in mass production and New Product Introductions (NPIs), I collaborated closely with engineering teams ensuring effective communication with the project management team and other stakeholders on project milestones and risks.As a result of this initiative, we enhanced productivity by efficiently managing and disseminating manufacturing data to vendors via Engineering Change Notifications (ECNs).
     Design Optimisation: |
        To optimise manufacturability and assembly processes in NPIs - I focused on implementing DFx principles, such us Design for Assembly and Design For Manufacturing. Learning from previous designs and with the support of the contract manufacturer's feedback. I contributed to enhance efficiency and standardisation across all affiliated companies within the group, aligning with broader organisational goals and objectives.
-    PLM System Trainee: |
+    PLM System Trainer: |
        I became part of the Focusrite Group during a phase of organizational expansion, allowing me the opportunity to proactively implement new processes. In response, I spearheaded process enhancement initiatives both within the company and across affiliated entities. My responsibilities extended to introducing and optimizing systems and processes for training new personnel in various departments, including Logistics, Service, Operations, Hardware, and Mechanical Design. I also played a key role in developing software solutions for data processing, resulting in an impressive 50% increase in productivity. This achievement was realized through procedural refinement and workflow optimization, leveraging tools such as Youtrack, Confluence, and Jira. I collaborated with diverse disciplines, including IT, Power BI, and Data teams. My proficiency extended to rectifying and enhancing the Arena PLM database through Python scripting and API utilization, showcasing my ability to navigate and improve complex systems. Overall, I contributed to the seamless adaptation of processes and integration of manufacturing data for new companies, thereby playing a crucial role in the organizational growth of the Focusrite Group.
-    Production Engineer Trainee: |
+    Production Engineer Trainer: |
        I took the initiative to lead comprehensive inductions for new team members, ensuring a seamless assimilation into operational workflows. Additionally, I played a pivotal role in reviewing and aligning Engineering Change Orders (ECOs), integrating objectives and key results (OKRs) with our organizational goals. Within our dynamic team, I collaborated on addressing areas for improvement, such as material shortages and cost reduction measures. In leveraging my prior experience leading teams, I identified a valuable opportunity to contribute my insights. At ADAM Audio, where I served as the first and only production engineer in the engineering team, I worked closely with management and other engineering disciplines. Together, we crafted processes that incorporated production engineering tasks, tailored to seamlessly fit the existing flows and needs of the team. This experience allowed me to bring a unique perspective to our collaborative efforts.
     Sustainability: |
        I took the lead in driving sustainable initiatives, collaborating closely with external contract manufacturers and the Head of Sustainability to explore various options and materials. One notable accomplishment was the impressive 80% reduction in plastic usage achieved in the highest-value NPI I was assigned to. In pursuit of sustainability goals, key achievements included replacing plastic seals with environmentally friendly paper seals, substituting plastic ties with paper wrapping, and eliminating PE Foam in favor of a robust cardboard infrastructure capable of supporting product weight. These environmentally conscious practices were extended to other SKUs, demonstrating a commitment to sustainability while carefully adhering to budget constraints. As part of this effort, we optimized product dimensions to not only reduce shipping costs but also minimize carbon emissions, aligning with our commitment to a greener future.
@@ -67,7 +67,7 @@ Mod Devices:
        I played a key role in constructing and rigorously validating prototypes essential for hardware development, particularly in New Product Introductions (NPI). This involved hands-on soldering, thorough debugging, and the proactive procurement of superior alternate components when necessary. Additionally, I provided valuable feedback on how to scale up production processes, contributing to the overall success of the projects.
     Risk Management and Process Improvement: |
        I took a proactive approach in identifying and communicating potential risks to stakeholders, ensuring a timely mitigation strategy to prevent production delays and issues. This included managing shortages of components and maintaining a low failure rate in production. Throughout this process, I fostered a culture of continuous process improvement, contributing to the overall success and efficiency of the project schedule.
-    External Collaboration and Supplier Management: |
+    Supply Chain Management: |
        I collaborated effectively with distributors and the contract manufacturer, ensuring a smooth transition of products into Mass Production. This involved visiting the factory to deploy the factory test and providing training to personnel on the assembly process for the new product. I focused on implementing and improving quality controls throughout the entire process, ultimately enhancing efficiency and reducing time in the production line.
     Logistics, Operations, and Customer Support: |
        I effectively managed logistics and operations, covering production, fulfillment, and comprehensive customer support to ensure operational excellence. This encompassed tracking components from China to the factory, overseeing sample deliveries to the headquarters in Berlin for testing by both myself and the mechanical team. I also handled order fulfillment, shipping products to distributors and customers. Furthermore, I took charge of servicing and debugging faulty units returned by customers, maintaining continuous communication with them to provide updates on the repair status.
@@ -105,10 +105,34 @@ Patch Point:
     Procurement and Supply Chain Management: |
        I effectively managed the procurement of components and production materials, ensuring timely availability for production. The company also offered DIY kits, and I implemented a more systematic approach to scale up production without errors, replacing the previous manual method. This improvement significantly reduced kitting time, and I consistently identified alternate sources to procure components within the specified budget.
    
-    
-  
-Konstruktiv GmbH:
+Others:
+  images:
+    - name: Novation Impulse
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/b5ac96c010b37c0d7054a1dc1c7db8c3f679bd05/padawapp/images/novation-impulse.jpg
+      width: 84%
+    - name: Focusrite Scrlett 3rd Gen
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s3g.png
+      width: 70%
+    - name: Novation Circuit Rhythm & Tracks
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fd98b177760a2b9fe817b1f30f350bf75298abbc/padawapp/images/circuit%20-%20rythmandtracks.jpeg
+      width: 93%
+    - name: Focusrite Scarlett 4th Gen
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s4g.png
+      width: 95%
 
-Koma Elektronik GmbH:
-Winter Modular: 
-Befaco:
+  title: 
+    name: Production Technician
+    start date: 16/05/16
+    end date: 01/04/2018
+    location: Berlin, Germany
+
+  skills:
+    Konstructiv GmbH: |
+       
+    Koma Elektronik: |
+       
+    Winter Modular: |
+       
+    Befaco: |
+       
+    
