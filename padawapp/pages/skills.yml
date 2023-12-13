@@ -107,18 +107,21 @@ Patch Point:
    
 Others:
   images:
-    - name: Novation Impulse
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/b5ac96c010b37c0d7054a1dc1c7db8c3f679bd05/padawapp/images/novation-impulse.jpg
+    - name: Konstructiv GmbH
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Screenshot%202023-12-13%20at%2011.58.57.png
       width: 84%
-    - name: Focusrite Scrlett 3rd Gen
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s3g.png
+    - name: Koma Field Kit FX
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/KOMA-Elektronik-Field-Kit-FX.png
       width: 70%
-    - name: Novation Circuit Rhythm & Tracks
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/fd98b177760a2b9fe817b1f30f350bf75298abbc/padawapp/images/circuit%20-%20rythmandtracks.jpeg
+    - name: Koma Komplex Sequencer
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/Komplex%20Sequencer.png
       width: 93%
-    - name: Focusrite Scarlett 4th Gen
-      url: https://raw.githubusercontent.com/youngpada1/padawanapp/9e9e0a43e4eb2534288a1dc82709d5b75c1969af/padawapp/images/s4g.png
+    - name: Winter Modular Eloquencer
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/ELOQUENCER-winter-modular.png
       width: 95%
+    - name: Befaco 
+      url: https://raw.githubusercontent.com/youngpada1/padawanapp/398ea41b8c7f0d6fb1a55f605f68ac5789ae83bc/padawapp/images/Others/befaco.jpeg
+      width: 100%
 
   title: 
     name: Production Technician
