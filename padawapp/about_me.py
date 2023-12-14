@@ -19,8 +19,8 @@ def about_me():
         col1, col2, col3, col4 = st.columns(4)
         # Profile photo section
         with col1: 
-            profile_pic = Path('images/Menu/Flavia - Profile pic.png') #Profile picture
-            st.image(str(profile_pic), width=100)
+            profile_pic = "https://raw.githubusercontent.com/youngpada1/padawanapp/990b059530ce772bc038f8806b80fe64541afecf/padawapp/images/Menu/Flavia%20-%20Profile%20pic.png"
+            st.image(profile_pic, width=100)
 
         # Download resume
         with col2:
