@@ -5,37 +5,39 @@ from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 import yaml
 
-### Set layout page to wide
-st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
-### Creating columns to add animation to column3
-col1, col2, col3, col4 = st.columns(4)
-with col1: # Page title
-    st.title('Professional Experience')
-with col2: # There's nothing here, bleh!
-    st.write('''''')
-with col3: # There's nothing here, bleh!
-    st.write('''''')
-with col4: # Load Lottie animation
-    with open ('/Users/youngpadawan/flaviapp/padawanapp/padawapp/pages/Wrench.json', 'r') as f:
-        data = json.load(f)
-        st_lottie(data,
-          speed=1,
-          reverse=False,
-          loop=True,
-          width='200px',
-          height='150px'
-          )
+
 
 
 ### Adding Selectbox
-def career():
-    skills_data = yaml.load(Path("skills.yml").open(), Loader=yaml.BaseLoader)
+def experience():
+    skills_data = yaml.load(Path('skills.yml').open(), Loader=yaml.BaseLoader)
+
+
+    ### Creating columns to add animation to column3
+    col1, col2, col3, col4 = st.columns(4)
+    with col1: # Page title
+        st.title('Professional Experience')
+    with col2: # There's nothing here, bleh!
+        st.write('''''')
+    with col3: # There's nothing here, bleh!
+        st.write('''''')
+    with col4: # Load Lottie animation
+        with Path('Wrench.json'). open() as f:
+            data = json.load(f)
+            st_lottie(data,
+            speed=1,
+            reverse=False,
+            loop=True,
+            width='200px',
+            height='150px'
+            )
+
 
     companies = st.selectbox(
         'Select a company',
         list(skills_data.keys())
-)
+    )
     st.write(''' ''')
 
     company_data = skills_data[companies]
@@ -75,6 +77,4 @@ def career():
             end_date = title_info.get("end date", "")
 
         skill_details = st.expander(f"{title_name} | {start_date} to {end_date}", expanded=True)
-        skill_details.markdown(company_data["skills"][select])    
-        
-career()
+        skill_details.markdown(company_data["skills"][select])  
