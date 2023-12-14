@@ -24,7 +24,7 @@ def about_me():
 
         # Download resume
         with col2:
-            resume = Path('images/Menu/Flavia Ferreira .pdf') #Resume
+            resume = Path('images/Menu/FlaviaFerreira.pdf') #Resume
             #loading resume in PDF Format
             with open(resume, 'rb') as f:
                 bytes_data = f.read()
