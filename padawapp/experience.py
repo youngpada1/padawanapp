@@ -11,7 +11,7 @@ import yaml
 
 ### Adding Selectbox
 def experience():
-    skills_data = yaml.load(Path('skills.yml').open(), Loader=yaml.BaseLoader)
+    skills_data = yaml.load((Path(__file__).parent / 'skills.yml').open(), Loader=yaml.BaseLoader)
 
 
     ### Creating columns to add animation to column3
@@ -23,7 +23,7 @@ def experience():
     with col3: # There's nothing here, bleh!
         st.write('''''')
     with col4: # Load Lottie animation
-        with Path('Wrench.json'). open() as f:
+        with (Path(__file__).parent / 'Wrench.json').open() as f:
             data = json.load(f)
             st_lottie(data,
             speed=1,

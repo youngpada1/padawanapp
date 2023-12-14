@@ -7,9 +7,6 @@ from experience import experience
 st.set_page_config(layout='wide')
 
 
-# Submenu - Combine BOMs
-print("app.py")
-
 def menu():
     with st.sidebar:
         selected = option_menu(
