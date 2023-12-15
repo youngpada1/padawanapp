@@ -71,10 +71,10 @@ def about_me():
         # Attack Mag
         with col1:
             attackmag = 'https://raw.githubusercontent.com/youngpada1/padawanapp/c1fbfe2975240555c9dd6968ae8ada7962da0551/padawapp/images/Attack%20Mag.png'
-            col1.markdown('5 Women In the Synthesizer Industry : Flavia Ferreira')
+            col1.markdown('5 Women In the Synthesizer Industry')
             st.markdown(f'''
                         <a href='https://www.attackmagazine.com/features/interview/5-women-in-the-synthesizer-industry-flavia-ferreira-focusrite/'>
-                        <img src='{attackmag}' width=100% height=100%/>
+                        <img src='{attackmag}' width=100%/>
                         </a>''',
                         unsafe_allow_html=True
                         )
@@ -82,10 +82,10 @@ def about_me():
         # Elektor Mag
         with col2:
             elektor = 'https://raw.githubusercontent.com/youngpada1/padawanapp/c1fbfe2975240555c9dd6968ae8ada7962da0551/padawapp/images/Elektor%20Mag.png'
-            col2.markdown('Elektor Magazine : Women in Tech')
+            col2.markdown('Elektor Magazine: Women in Tech')
             st.markdown(f'''
                         <a href='https://www.elektormagazine.com/articles/women-in-tech'>
-                        <img src='{elektor}' width=100% height=100%/>
+                        <img src='{elektor}' width=100%/>
                         </a>''',
                         unsafe_allow_html=True
                         )
@@ -93,10 +93,10 @@ def about_me():
         # Instagram
         with col3:
             instagram = 'https://raw.githubusercontent.com/youngpada1/padawanapp/c1fbfe2975240555c9dd6968ae8ada7962da0551/padawapp/images/Focusrite.jpeg'
-            col3.markdown('Focusrite : Women in Engineering Day')
+            col3.markdown('Focusrite: Women in Engineering Day')
             st.markdown(f'''
                         <a href='https://www.instagram.com/reel/Ct1yGcQoE91/'>
-                        <img src='{instagram}' width=100% height=100%/>
+                        <img src='{instagram}' width=100%/>
                         </a>''',
                         unsafe_allow_html=True
                         )
@@ -107,7 +107,7 @@ def about_me():
         col1, col2, col3 = st.columns(3)
         # Video 1 - Octatrack
         with col1:
-            col1.markdown('Soldering Repair Tricks for Beginners (Padawans)')
+            col1.markdown('Soldering Repair Tricks for Beginners')
             octa_video = st.video('https://youtu.be/i4GFGXrruok')
         # Video 2 - Atari
         with col2:
