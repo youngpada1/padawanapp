@@ -22,3 +22,6 @@ ruamel-yaml = "^0.18.5"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[theme]
+base = "dark"
