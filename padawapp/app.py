@@ -15,7 +15,7 @@ def menu():
             options=['About Me', 'Experience'],
             #orientation='horizontal',
             styles={
-        'container': {'padding': '5!important', 'background-color': '#000000'},
+        'container': {'padding': '5!important', 'background-color': '#808080'},
         'icon': {'color': 'orange', 'font-size': '10px'}, 
         'nav-link': {'font-size': '12px', 'text-align': 'left', 'margin':'0px', '--hover-color': '#eee'},
         'nav-link-selected': {'background-color': '#000000'},
