@@ -7,8 +7,6 @@ from PIL import Image
 # st.set_page_config(layout='wide')
 
 def about_me():
-# Set layout page to wide
-        
 
         # Adding introductory message
         st.title('Flavia Ferreira')

@@ -7,8 +7,6 @@ import yaml
 
 
 
-
-
 ### Adding Selectbox
 def experience():
     skills_data = yaml.load((Path(__file__).parent / 'skills.yml').open(), Loader=yaml.BaseLoader)
