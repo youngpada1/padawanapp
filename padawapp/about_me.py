@@ -4,8 +4,6 @@ import pandas as pd
 from pathlib import Path
 from PIL import Image
 
-# st.set_page_config(layout='wide')
-
 def about_me():
 
         # Adding introductory message
@@ -22,7 +20,7 @@ def about_me():
 
         # Download resume
         with col2:
-            resume = Path(__file__).parent / Path('images/Menu/Flavia Ferreira - Resume 2024.pdf') #Resume
+            resume = Path(__file__).parent / Path('images/Menu/Flavia Ferreira.pdf') #Resume
             #loading resume in PDF Formatß
             with open(resume, 'rb') as f:
                 bytes_data = f.read()
