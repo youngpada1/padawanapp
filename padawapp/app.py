@@ -12,7 +12,7 @@ def menu():
         selected = option_menu(
             menu_title='Flavia Ferreira',
             menu_icon='pages', default_index=0,
-            options=['About Me', 'Experience'],
+            options=['About Me', 'Experience', 'Certificates'],
             #orientation='horizontal',
             styles={
         'container': {'padding': '5!important', 'background-color': '#000000'},
